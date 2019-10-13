@@ -1,0 +1,68 @@
+*{
+ margin: 0;
+ padding: 0;
+ font-family: 'Dosis', sans-serif;
+}
+
+.header {
+    background-color: #34495e;
+    text-align: center;
+    display: table;
+    height: 80px;
+    width: 100%;
+}
+
+#robot_container{
+	margin-top: 100px;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+
+#rover{
+	text-align: center;
+	margin: 0px;
+	width: 100%;
+	height: 25px;
+	background-size: 25px;
+	background-repeat: no-repeat;
+	background-position: center;
+	
+}
+
+#texto {
+    color: white;
+    display: table-cell;
+	vertical-align: middle;
+}
+
+.botones {
+    text-align: center;
+    padding: 20px;
+}
+
+#arriba, #abajo, #izquierda, #derecha {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+table{
+	border-collapse: collapse;
+    text-align: center;
+}
+
+td{
+	text-align: center;
+	padding: 5px;
+	border: 1px solid black;
+	width: 35px;
+	height: 35px;
+	min-width: 35px;
+	min-height: 35px;
+}
